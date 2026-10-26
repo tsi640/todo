@@ -1,0 +1,4 @@
+[functions.extract-todos]
+# Der Handler validiert den User-JWT explizit über /auth/v1/user.
+# Funktioniert dadurch auch mit asymmetrischen Supabase Signing Keys.
+verify_jwt = false
